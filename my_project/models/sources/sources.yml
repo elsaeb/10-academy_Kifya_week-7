@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: telegram_data
+    description: "Source for Telegram medical data."
+    tables:
+      - name: telegram_medical_data
+        description: "Raw data from Telegram medical channels."
+        external:
+          location: '/home/elizabeth/Downloads/10-academy_Kifya_week-7/Data/telegram_medical_data.csv'
+          format: csv
