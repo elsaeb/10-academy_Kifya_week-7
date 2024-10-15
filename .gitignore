@@ -1,2 +1,3 @@
 Data/
-logs/
+detection_output/
+notebooks/yolov5s.pt
